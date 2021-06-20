@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f0e6840a-5c68-4c92-87e4-d1e9b4b400d7" namespace="Solution1.Module.BusinessObjects.uniDB" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="(localdb)MSSQLLocalDBuniDB" createdInVersion="20.2.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.2.3.0" name="uniDB" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="d5ac5b5f-35d4-475e-ba5e-0345aff79c0e">
+      <xpObject Id="f19d30f9-c31e-4a31-a67c-5c8243680670" name="student" baseClass="XPBaseObject" userFileName="student" designerFileName="student.Designer" className="student" virtualBaseClass="XPBaseObject" virtualName="student">
+        <fields>
+          <generalXpObjectHasFields Id="7d1812b8-0103-4c44-9db9-233cfc273b18">
+            <field Id="94e6fee8-3278-432e-b457-c81ed27e8cff" name="code" columnType="Int32" key="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="024ef680-bdf4-4200-a2a5-aaede54d210f">
+            <field Id="5516ecbe-ba18-4b8c-86d8-b0588ecdb7a3" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.Required" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3537d38c-fec1-488d-a393-01d2574c0d0e">
+            <field Id="7a015b85-2815-4366-9edc-4433a2cd32a0" name="address" virtualColumnType="address" logicalType="address" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8890a5d9-6462-4f6d-a792-bf5cbc40ad8c">
+            <field Id="26a9177e-f1a7-4f9f-9bc6-bf52c6184bad" name="DOB" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7afeb666-e207-4370-9c82-e49e99b25cc3">
+            <field Id="ebae64e9-5784-4519-a4de-7fe8930b88df" name="major" virtualColumnType="major" logicalType="major" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1a7b2b7b-4e4c-4cf5-b900-264bcea63734">
+            <field Id="23b8fa55-79f8-4c62-a897-4a36a8bad83d" name="school" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="ac298b7b-18d7-4ed1-b80c-fff6191ff12a" sourceCollectionName="studnetCoursesCollection" name="studnetCoursesReferencesstudent" targetFieldName="student">
+            <xpObjectMoniker Id="abe71a6e-d0f2-4288-a62f-a405a5d1e3c7" />
+          </simpleAssociation>
+          <simpleAssociation Id="7414b790-15a7-4fed-8643-d70ff04f79fa" sourceCollectionName="phones" name="phoneReferencesstudent" targetFieldName="student">
+            <xpObjectMoniker Id="6dce392c-360e-43af-8ba7-0b75e0adff7e" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="6e4bbe44-a125-4627-8c6a-5f18f0175492">
+            <collectionField Id="671d8b95-4ff8-4228-b93f-700700dc9203" name="studnetCoursesCollection" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="3d73f688-02bf-4089-9491-1d0ddd83f1dc">
+            <collectionField Id="7109be88-511c-4d37-81b9-07afb9390d71" name="phones" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="bee5de52-a9e0-440d-9182-824e42240ad9">
+      <xpObject Id="23c199f5-145b-442b-91ab-2541a0207622" name="Instructor" baseClass="XPBaseObject" userFileName="Instructor" designerFileName="Instructor.Designer" className="Instructor" virtualBaseClass="XPBaseObject" virtualName="Instructor">
+        <fields>
+          <generalXpObjectHasFields Id="c558e27f-7d33-40e6-ad1b-1991ba90d239">
+            <field Id="f5902397-c537-49c6-8479-cd40a15c1d7d" name="code" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="167e7a02-d184-4438-8a6e-6722f14816a6">
+            <field Id="b34ec799-867e-4dcb-8ff4-176d183d039a" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="223abad9-3b66-431e-b375-390dfbeaa53c">
+            <field Id="acfb0198-ceee-472b-a257-a58d3e260574" name="address" virtualColumnType="address" logicalType="address" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ec437f01-be2b-414a-9c3b-ad28b202bda8">
+            <field Id="af303ff3-b6f3-4728-b35b-e726bc286eae" name="DOB" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="285cac6c-fdc0-414e-aa8e-517284f38bb8" sourceCollectionName="courses" name="courseReferencesInstructor" targetFieldName="instructor">
+            <xpObjectMoniker Id="4ddaacd7-8a8b-4eff-9fae-c25f38a11b7e" />
+          </simpleAssociation>
+          <simpleAssociation Id="4bae1133-69bd-4ffb-a5dc-05544e193088" sourceCollectionName="phones" name="phoneReferencesInstructor" targetFieldName="Instructor">
+            <xpObjectMoniker Id="6dce392c-360e-43af-8ba7-0b75e0adff7e" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="fd531e51-aef5-4564-88e4-041f1fa15994">
+            <collectionField Id="de21ae4f-bc15-4b14-a116-9ae41eac866d" name="courses" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="f4c713ea-7876-4d0d-af6c-72b8fd23bf98">
+            <collectionField Id="4bce0f40-5a4a-4b34-8c98-f98168706763" name="phones" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="bddaef61-88b9-4b75-9dba-28494e1500d3">
+      <xpObject Id="4ddaacd7-8a8b-4eff-9fae-c25f38a11b7e" name="course" baseClass="XPBaseObject" userFileName="course" designerFileName="course.Designer" className="course" virtualBaseClass="XPBaseObject" virtualName="course">
+        <fields>
+          <generalXpObjectHasFields Id="d3176ae7-fdc2-4783-a403-42ab8b52662a">
+            <field Id="8315e358-921c-41e1-8392-84ceb77e7fea" name="code" key="true" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7309db1a-49f0-4aa2-bc72-cb7561d3507e">
+            <field Id="58147491-96f3-43c1-b2d2-700b49e4b038" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fb00107c-dff9-4160-8f7b-3e19ff7118ea">
+            <field Id="47389520-dc67-419c-b3c9-f9337702db67" name="credits" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d2f87717-d892-47f0-b539-e7325ebd83f4">
+            <field Id="a57a8d83-c25d-4ad7-93e7-8c0ba39d2cef" name="instructor" virtualColumnType="Instructor" logicalType="Instructor" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="23b7d326-3f62-4273-a68b-d699a571c14a">
+            <field Id="bd72cfc6-7a1a-4221-adc1-afaad740ea60" name="semster" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="d9916298-78a1-4065-a760-21db8b923883" sourceCollectionName="studnetCoursesCollection" name="studnetCoursesReferencescourse" targetFieldName="course">
+            <xpObjectMoniker Id="abe71a6e-d0f2-4288-a62f-a405a5d1e3c7" />
+          </simpleAssociation>
+          <simpleAssociation Id="6ef67379-2d1e-4a4b-a212-5bb5044ab6d4" sourceCollectionName="majors" name="majorReferencescourse" targetFieldName="course">
+            <xpObjectMoniker Id="dc26e0aa-0236-445a-8d38-a1b2b4140b88" />
+          </simpleAssociation>
+        </saTargets>
+        <aggrTarget>
+          <aggregation Id="179c3459-9ae2-4a8c-a512-e6220e128b66" sourceCollectionName="courseSections" name="courseSectionReferencescourse" targetFieldName="course">
+            <xpObjectMoniker Id="d2c4cecf-bb3b-4599-9dec-a0948d8adaad" />
+          </aggregation>
+          <aggregation Id="5c3b08b1-cab9-4adc-8b1c-95ae75e1cb49" sourceCollectionName="courseTAsCollection" name="courseTAsReferencescourse" targetFieldName="course">
+            <xpObjectMoniker Id="b4ce582e-372c-48af-a9fb-7b1e580ad8da" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b6e4e0ee-9f4c-4553-ae11-fdd773cc6791">
+            <collectionField Id="934a2d03-9871-4a41-a746-8cd6048d30fd" name="studnetCoursesCollection" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="082f0630-74a5-4ad8-994f-5c6172854d5e">
+            <collectionField Id="5fa04f2e-47b8-40fa-a8ea-381215ad2016" name="majors" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="72441d4c-74fb-45e0-831a-bbd13163c45d">
+            <collectionField Id="c01fec57-45c7-4382-a4c0-145d084d8b01" name="courseSections" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="16e2ca96-2e15-4275-94dc-ea779e41d7a4">
+            <collectionField Id="7ea4f59c-e3a5-4516-ba54-e065c588e11e" name="courseTAsCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="d5e4ad08-9952-4f5e-ba5a-5a0c0024b91a">
+      <xpObject Id="abe71a6e-d0f2-4288-a62f-a405a5d1e3c7" name="studnetCourses" baseClass="XPBaseObject" userFileName="studnetCourses" designerFileName="studnetCourses.Designer" className="studnetCourses" virtualBaseClass="XPBaseObject" virtualName="studnetCourses">
+        <fields>
+          <generalXpObjectHasFields Id="56901e84-a090-4f0d-be73-6ffef9170fba">
+            <field Id="0f5b34f6-9c48-4f39-8c7d-c8b352dacade" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5604a3e0-73ed-40d7-9eff-d21df2609b23">
+            <field Id="56928108-aa42-4096-95ab-2585145a4baf" name="student" virtualColumnType="student" logicalType="student" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="72df72f2-8452-4fd8-affb-65ec6d967904">
+            <field Id="224187e9-9c6e-43b4-9046-260b605afa80" name="course" columnType="Char" virtualColumnType="course" logicalType="course" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="782ccf7e-a2bf-4239-a5d6-f092aeb80874">
+            <field Id="91ca8eb8-4fed-443e-922f-fa06be8a20ad" name="section" columnType="Char" virtualColumnType="courseSection" logicalType="courseSection" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="267499d4-87b7-45b9-a84a-e60303c0aab5">
+      <xpObject Id="6b21a997-7fb9-4818-a0ed-2caddc530690" name="school" baseClass="XPBaseObject" userFileName="school" designerFileName="school.Designer" className="school" virtualBaseClass="XPBaseObject" virtualName="school">
+        <fields>
+          <generalXpObjectHasFields Id="314cad93-0776-4c78-93b0-51aeef18532c">
+            <field Id="1d8f1255-a837-4a37-8008-572f5589532a" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="dacfdb30-dba1-4eac-b305-008071ad4ef8">
+            <field Id="67794eb6-04ee-401f-a3ab-65fde64047a4" name="dean" virtualColumnType="Instructor" logicalType="Instructor" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9de7581e-1591-4bda-95c8-4460148fd074">
+            <field Id="2db3a8e2-2c45-4afc-b6fc-e5a6157f37b0" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="29ad3f33-3a28-4fbe-92d2-9b13a6d08803" sourceCollectionName="majors" name="majorReferencesschool" targetFieldName="school">
+            <xpObjectMoniker Id="dc26e0aa-0236-445a-8d38-a1b2b4140b88" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="5e3dc575-9a2c-48b8-82c8-136761107ab7">
+            <collectionField Id="1babf7ab-4be8-4381-ac30-232689c1443e" name="majors" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="bfc49fd7-2178-47e8-9f7e-a6623f3fbf5c">
+      <xpObject Id="dc26e0aa-0236-445a-8d38-a1b2b4140b88" name="major" baseClass="XPBaseObject" userFileName="major" designerFileName="major.Designer" className="major" virtualBaseClass="XPBaseObject" virtualName="major">
+        <fields>
+          <generalXpObjectHasFields Id="1467b329-e190-4def-b641-1bf0e805c14e">
+            <field Id="39708e5a-fc30-4956-b6f5-b9171c776468" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4fbc910a-240c-429f-a6e8-7f2572279f57">
+            <field Id="5fbbc621-4514-4a73-97c7-b18e79a8c6de" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="91827c4a-37e5-4320-8dbb-1bd76fb8372c">
+            <field Id="37c1bb5b-69cc-4fe3-a448-8a7ac7415765" name="programDirector" virtualColumnType="Instructor" logicalType="Instructor" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="617b1c06-1132-458c-8336-2f216cbb9b87">
+            <field Id="5e575273-82cf-44d6-970b-baa59f35274f" name="school" columnType="Single" virtualColumnType="school" logicalType="school" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="74b5bd91-8d68-445e-bea4-5227f0b5fb42">
+            <field Id="0ab7aa1f-3ad0-4dc2-a6eb-c1c19dfbace1" name="course" columnType="Char" virtualColumnType="course" logicalType="course" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e341b0b8-5eee-4ca0-857a-0f0b734aa49d">
+      <xpObject Id="d2c4cecf-bb3b-4599-9dec-a0948d8adaad" name="courseSection" baseClass="XPBaseObject" userFileName="courseSection" designerFileName="courseSection.Designer" className="courseSection" virtualBaseClass="XPBaseObject" virtualName="courseSection">
+        <fields>
+          <generalXpObjectHasFields Id="9f3f1f7e-7fed-41a4-8c0a-cf59e1a0cc7e">
+            <field Id="7195f92d-3aca-4be3-84ab-d192654e4331" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d45d0b01-c938-4b83-a0bf-8d81cf7d689d">
+            <field Id="950ccbc9-e411-4b9d-8fb3-b47377f1fde8" name="course" columnType="Char" virtualColumnType="course" logicalType="course" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="21ac667d-5f9b-4c3f-a66f-3f18a6499172">
+            <field Id="043277b2-9820-4a31-b733-6d06e40bcfe9" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="027efc03-4107-47d4-82aa-84b90f8ac693">
+      <xpObject Id="71533d73-5162-4a25-8ac0-13360937ead4" name="TA" baseClass="XPBaseObject" userFileName="TA" designerFileName="TA.Designer" className="TA" virtualBaseClass="XPBaseObject" virtualName="TA">
+        <fields>
+          <generalXpObjectHasFields Id="b767a6b6-2224-455e-b275-a9e7a011a9e6">
+            <field Id="0a0e9cd6-af26-465a-9d55-ab040479d3c7" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="aeca4a5e-030f-4d07-8589-7d4a8334ee0e">
+            <field Id="6ec5cfc1-1b29-40df-9901-f14bb970e60c" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="93714189-a6ae-4dc7-8d59-e89a091921fc">
+            <field Id="c10f27d4-f590-47da-8274-374ba6b191b2" name="DOB" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f6f6f901-75da-4571-bcf8-eaf2ceff6776">
+            <field Id="856f2cf7-e4fb-4544-bd3d-1765ba4ceef8" name="address" virtualColumnType="address" logicalType="address" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="34d5b99c-cc54-4754-9a4f-af8f5e81d1bd" sourceCollectionName="phones" name="phoneReferencesTA" targetFieldName="TA">
+            <xpObjectMoniker Id="6dce392c-360e-43af-8ba7-0b75e0adff7e" />
+          </simpleAssociation>
+        </saTargets>
+        <aggrTarget>
+          <aggregation Id="2a6b82df-379a-4b4c-925d-1cc6022925e0" sourceCollectionName="courseTAsCollection" name="courseTAsReferencesTA" targetFieldName="TA">
+            <xpObjectMoniker Id="b4ce582e-372c-48af-a9fb-7b1e580ad8da" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="03fa8697-ded9-4036-90c4-d25e91bd3b16">
+            <collectionField Id="531fcd27-78d8-4e18-b071-f8b05b30a153" name="courseTAsCollection" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="f79f98bf-fa2b-4dad-8dc3-e77df7620fa9">
+            <collectionField Id="bcf86da7-450e-4ddb-b5a6-e2eefbd437df" name="phones" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="fab617f2-2b39-4cbf-a868-530208f4ec38">
+      <xpObject Id="b4ce582e-372c-48af-a9fb-7b1e580ad8da" name="courseTAs" baseClass="XPBaseObject" userFileName="courseTAs" designerFileName="courseTAs.Designer" className="courseTAs" virtualBaseClass="XPBaseObject" virtualName="courseTAs">
+        <fields>
+          <generalXpObjectHasFields Id="6369807b-558b-49e5-b76b-eafef89134cd">
+            <field Id="e4694566-41a3-4457-982e-ff8e4f965dfc" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="48988a41-aea4-4158-be99-d8118942e45f">
+            <field Id="c7dd7ed9-d303-4362-8cf9-ee2b4869726c" name="course" columnType="Char" virtualColumnType="course" logicalType="course" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="94dcc4b1-4d62-4846-8c22-40bf92391ef4">
+            <field Id="c8250776-fea1-4be0-94c7-b13a8c3aa9ee" name="TA" virtualColumnType="TA" logicalType="TA" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="62f9c71c-1564-4638-87be-cb904ec4d0f3">
+      <xpObject Id="06efe73d-d6cf-4834-9f9d-a4136a2050b5" name="address" baseClass="XPBaseObject" userFileName="address" designerFileName="address.Designer" className="address" virtualBaseClass="XPBaseObject" virtualName="address">
+        <fields>
+          <generalXpObjectHasFields Id="893c3f78-c20d-4f4a-a276-f9674dd73877">
+            <field Id="de033601-7b43-487d-a5c5-81d648d54f71" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="40c69164-1aa9-4a24-a842-ded9c34892c6">
+            <field Id="82d2a20b-e1d4-4a3b-8add-defc730f0a1e" name="city" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4062ad31-c27e-4bee-9d66-c4de68454d39">
+            <field Id="1d4559f7-6ae3-4434-8acd-1f69ecbebd5d" name="street" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fa48bbdb-0995-4be8-baa2-45b0d5a4ee4e">
+            <field Id="a540a683-f714-4c20-9275-3b13d5624509" name="region" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f07bb9a8-d6c1-4cd6-b356-2af1fb59fb63">
+            <field Id="6657bece-638e-4ddb-9793-b94ee7e50177" name="postalCode" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7683c65b-c9ca-422a-9b49-cba34fa51141">
+            <persistentAlias Id="022f59fc-9be1-4841-9491-939cea760528" name="fullAddress" virtualColumnType="String" expression="[city] + ', ' + [region] + ', ' + [street]" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="dd0fe113-ab83-406f-80e4-0d5cd998c96b">
+      <xpObject Id="6dce392c-360e-43af-8ba7-0b75e0adff7e" name="phone" baseClass="XPBaseObject" userFileName="phone" designerFileName="phone.Designer" className="phone" virtualBaseClass="XPBaseObject" virtualName="phone">
+        <fields>
+          <generalXpObjectHasFields Id="5ba9638c-b06e-483a-9600-9f558e8e83a1">
+            <field Id="3a39131d-cf1d-48dd-b08f-72ce91ebae5a" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="51f22098-c760-447e-9ddb-7caa7700d98b">
+            <field Id="5c015496-2224-4a3d-9b04-f245bb98d01a" name="phoneNumber" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3443bd81-9cc7-4497-b820-8acb3800db16">
+            <field Id="34574d0f-7e44-4371-9534-6744d4702671" name="TA" virtualColumnType="TA" logicalType="TA" delayedUpdateModifiedOnly="false" customAttributes="System.ComponentModel.Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="40f2c084-7ede-42b9-9e6c-26e3aee2d894">
+            <field Id="cbce20ac-c3db-4db3-ad8f-5b2d4d05d82a" name="Instructor" virtualColumnType="Instructor" logicalType="Instructor" delayedUpdateModifiedOnly="false" customAttributes="System.ComponentModel.Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a078de12-6a37-486e-ae36-9de7cd06b7e7">
+            <field Id="3bb7e86c-6dfb-44ef-9c4c-241f89c8ffca" name="student" virtualColumnType="student" logicalType="student" delayedUpdateModifiedOnly="false" customAttributes="System.ComponentModel.Browsable(false)" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

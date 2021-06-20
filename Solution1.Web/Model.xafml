@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="UMS">
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="20.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="20.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleRequiredField Id="@bfbb2cad-86ce-481e-a52c-a00c982623eb" TargetType="Solution1.Module.BusinessObjects.uniDB.student" TargetPropertyName="name" TargetContextIDs="Save" IsNewNode="True" />
+    </Rules>
+  </Validation>
+</Application>
